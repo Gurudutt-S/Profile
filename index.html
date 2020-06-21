@@ -22,24 +22,22 @@
 </head>
 
 <body>
-	<nav class="navbar navbar-expand-md navbar-light sticky-top">
+	<nav class="navbar navbar-expand-md navbar-light sticky-top" style="background-color: rgba(0, 0, 0, 0.1);">
 		<!-- <h2 class="display-4 text-muted">&nbsp;Gurudutt S</h2> -->
 		<div class="collapse navbar-collapse">
 			<ul class="navbar-nav mx-auto">
-				<li class="nav-item"><a href="#div1" class="nav-link">About Me</a></li>
-				<li class="nav-item"><a href="#div2" class="nav-link"></i>Education</a></li>
-				<li class="nav-item"><a href="#div3" class="nav-link">Project</a></li>
-				<li class="nav-item"><a href="#div4" class="nav-link">Course</a></li>
+				<li class="nav-item"><a href="#div1" class="nav-link text-dark">ABOUT ME</a></li>
+				<li class="nav-item"><a href="#div2" class="nav-link text-dark"></i>EDUCATION</a></li>
+				<li class="nav-item"><a href="#div3" class="nav-link text-dark">PROJECT</a></li>
+				<li class="nav-item"><a href="#div4" class="nav-link text-dark">SKILLS</a></li>
 				<li type="button" data-toggle="modal" data-target="#cde">
-					<span class="nav-link">CDE Rank</span></li>
-				<li class="nav-item"><a href="contact.html" class="nav-link">Contact Me</a></li>
+					<span class="nav-link text-dark">CDE RANK</span></li>
 			</ul>
-
 		</div>
 	</nav>
 
 	<main>
-		<!-- mail -->
+		<!-- gurudutt -->
 		<div class=" body1" id="div1">
 			<div class="d-block pt-5 text-center">
 				<img src="images/Gurudutt.jpg" alt="Gurudutt" width="120px" height="140px"
@@ -154,31 +152,51 @@
 				</table>
 			</div>
 		</div>
-		<!-- course -->
+		<!-- skill -->
 		<div class=" body4" id="div4">
 			<div class="w-50">
-				<h1 style="position:relative; top:150px ;left:600px;">Courses and Certification</h1>
+				<h1 style="position:relative; top:100px ;left:600px;">Technical Skills</h1>
 			</div>
 			<div>
-				<table class="table w-50" style="position:relative; top:160px ;left: 600px;">
+				<table class="table w-50" style="position:relative; top:110px ;left: 600px;">
 					<tbody>
 						<tr>
-							<td>
-								Course name : User Interface Developer<br>
-							</td>
+							<td>Programming Language</td>
+							<td>Java 8</td>
 						</tr>
 						<tr>
-							<td>
-								Syllabus : HTML 5, CSS 3, bootstrap, Wordpress</td>
+							<td>Frameworks</td>
+							<td>Spring Boot, Spring Cloud, Hibernate, Angular 8</td>
+						</tr>
+						<tr>
+							<td>Web Technologies</td>
+							<td>HTML 5, CSS 3</td>
+						</tr>
+						<tr>
+							<td>Database</td>
+							<td>MySQL</td>
+						</tr>
+						<tr>
+							<td>Technologies</td>
+							<td>Microservices, JPA, REST, JUnit, Mockito</td>
+						</tr>
+						<tr>
+							<td>Tools</td>
+							<td>Git, Maven, Eclipse IDE, VSCode</td>
+						</tr>
+						<tr>
+							<td>Operating Systems</td>
+							<td>Windows, Linux</td>
 						</tr>
 					</tbody>
 				</table>
 			</div>
 		</div>
 		<!-- CDE -->
-		<div class="modal fade " id="cde" tabindex="-1" role="dialog" aria-labelledby="cdeModal" aria-hidden="true">
+		<div class="modal fade" style="background-color: rgba(0, 0, 0, 0.5);" id="cde" tabindex="-1" role="dialog"
+			aria-labelledby="cdeModal" aria-hidden="true">
 			<div class="modal-dialog " role="document">
-				<div class="modal-content bg-light">
+				<div class="modal-content bg-light shadow">
 					<div class="modal-header">
 						<h5 class="modal-title" id="cdeModal">CDE Rank</h5>
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -210,6 +228,7 @@
 								</tr>
 							</tfoot>
 						</table>
+						<small>CDE score = 60%  Hackerrank Score+ 40% CDE Project</small>
 					</div>
 					<div class="modal-footer">
 						<button type="button" class="btn btn-secondary" data-dismiss="modal">Ok</button>
@@ -219,7 +238,7 @@
 		</div>
 	</main>
 
-	<footer class="footer bg-dark p-2">
+	<footer class="footer p-2" style="background-color: rgba(0, 0, 0, 0.5);">
 		<div class="text-center text-muted">
 			&copy; 2020, Gurudutt S
 		</div>
