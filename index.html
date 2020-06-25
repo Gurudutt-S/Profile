@@ -22,23 +22,21 @@
 </head>
 
 <body>
-	<nav class="navbar navbar-expand-md navbar-light sticky-top" style="background-color: rgba(0, 0, 0, 0.1);">
-		<!-- <h2 class="display-4 text-muted">&nbsp;Gurudutt S</h2> -->
+	<nav class="navbar navbar-expand-md navbar-light sticky-top">
 		<div class="collapse navbar-collapse">
 			<ul class="navbar-nav mx-auto">
-				<li class="nav-item"><a href="#div1" class="nav-link text-dark">ABOUT ME</a></li>
-				<li class="nav-item"><a href="#div2" class="nav-link text-dark"></i>EDUCATION</a></li>
-				<li class="nav-item"><a href="#div3" class="nav-link text-dark">PROJECT</a></li>
-				<li class="nav-item"><a href="#div4" class="nav-link text-dark">SKILLS</a></li>
+				<li class="nav-item"><a href="#div1" class="nav-link text-muted">ABOUT ME</a></li>
+				<li class="nav-item"><a href="#div2" class="nav-link text-muted"></i>EDUCATION</a></li>
+				<li class="nav-item"><a href="#div3" class="nav-link text-muted">PROJECT</a></li>
 				<li type="button" data-toggle="modal" data-target="#cde">
-					<span class="nav-link text-dark">CDE RANK</span></li>
+					<span class="nav-link text-muted">CDE RANK</span></li>
 			</ul>
 		</div>
 	</nav>
 
 	<main>
 		<!-- gurudutt -->
-		<div class=" body1" id="div1">
+		<div class="body1" id="div1">
 			<div class="d-block pt-5 text-center">
 				<img src="images/Gurudutt.jpg" alt="Gurudutt" width="120px" height="140px"
 					style="border-radius: 100%; box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.5);">
@@ -61,103 +59,121 @@
 			</div>
 		</div>
 		<!-- education -->
-		<div class=" body2" id="div2">
-			<div class="w-50">
-				<h1 style="position:relative; top:70px ;left:100px;">Education</h1>
+		<div id="div2" class="row">
+			<div class="col">
+				<div class="w-75">
+					<h1 class="display-4" style="position:relative; top:70px ;left:100px;">My Journey</h1>
+				</div>
+				<div class="timeline">
+					<div class="individual">
+						<p class="font-weight-bold" style="color: #5cdb95;">2013</p>
+						<p>10th Grade<br>
+							I recieved my 10th Grade Diploma with pass percentage of 83.6 from <span
+								class="font-italic">Sainik School Kazhakootam</span> under
+							the affiliation of Central Board of Secondary Education</p>
+					</div>
+					<div class="individual">
+						<p class="font-weight-bold" style="color: #5cdb95;">2015</p>
+						<p>12th Grade</span> <span class="font-weight-bold">(Information Technology)</span><br>
+							I recieved my 12th Grade Diploma with pass percentage of 73.8 from <span
+								class="font-italic">Sainik School Kazhakootam</span> under
+							the affiliation of Central Board of Secondary Education</p>
+					</div>
+					<div class="individual">
+						<p class="font-weight-bold" style="color: #5cdb95;">2019</p>
+						<p>B-Tech</span> <span class="font-weight-bold">(Information Technology)</span><br>
+							I recieved my Bachelor's Degree in <span class="font-italic">Information
+								Technology</span> with cgpa of 7.01 from <span class="font-italic">Government
+								Engineering College Idukki</span> under
+							the affiliation of APJ Abdul Kalam Technological University</p>
+					</div>
+
+					<!-- project -->
+					<div id="div3" class="individual">
+						<p class="font-weight-bold" style="color: #5cdb95;">2019</p>
+						<p>Mobile Application for State Transport</p>
+						<p>GPS System for College Bus</p>
+						<p>Water Toxicity Monitoring (College final year
+							project)</span>
+							<br>
+							An IoT system used for measuring the toxicity of water by using pH as a factor and
+							sending the data wirelessly using LoRa(Long Range).</p>
+					</div>
+
+					<div class="individual">
+						<p class="font-weight-bold" style="color: #5cdb95;">2019 September</p>
+						<p>UI Developer Course <br>
+							Technologies : HTML 5, CSS 3, Bootstrap 4, Wordpress (Basics)</p>
+					</div>
+
+					<div class="individual">
+						<p class="font-weight-bold" style="color: #5cdb95;">28 December 2020</p>
+						<p>Jioned <span class="text-primary">Cognizant</span> <br>
+							Location : Chennai</p>
+					</div>
+
+					<div class="individual">
+						<p class="font-weight-bold" style="color: #5cdb95;">30 December 2020</p>
+						<p>Started Training <br>
+							Trained By : IIHT <br>
+							Vendor Location : Arich Infotech, Chennai</p>
+					</div>
+
+					<div class="individual">
+						<p class="font-weight-bold" style="color: #5cdb95;">2020</p>
+						<p><a href="https://github.com/Gurudutt-S/Stock-market-charting" target="_blank"><span
+									class="font-weight-bold text-dark">Stock Market Charting
+									(Training)</span>&nbsp;
+								<i class="fa fa-lg fa-github-square text-dark" aria-hidden="true"></i>
+							</a>
+							<br>
+							A Web Application that provide users with a comparison representing current
+							stock rates of different companies and sector wise comparison based on current
+							stock exchange trends.</p>
+					</div>
+					<div class="individual">
+						<p class="font-weight-bold">2020</p>
+						<p><a href="https://github.com/Gurudutt-S/customer-preference-management" target="_blank"><span
+									class="font-weight-bold text-dark">Customer Preference (CDE
+									Rank)</span>&nbsp;
+								<i class="fa fa-lg fa-github-square text-dark" aria-hidden="true"></i>
+							</a>
+							<br>
+							An Application for a store where the customers can register by contacting store
+							representative and customers can update their contact preference either by using
+							a self-service kiosk or through representative.</p>
+					</div>
+				</div>
 			</div>
-			<div>
-				<table class="table w-50" style="position:relative; top:100px ;left: 100px;">
-					<tbody>
-						<tr>
-							<td><span class="font-weight-bold">2019 &nbsp;
-									B-Tech</span> <span class="font-weight-bold">(Information Technology)</span><br>
-								I recieved my Bachelor's Degree in <span class="font-italic">Information
-									Technology</span> with cgpa of 7.01 from <span class="font-italic">Government
-									Engineering College Idukki</span> under
-								the affiliation of APJ Abdul Kalam Technological University</td>
-						</tr>
-					</tbody>
-				</table>
-				<table class="table w-50" style="position:relative; top:100px ;left: 100px;">
-					<tbody>
-						<tr>
-							<td><span class="font-weight-bold">2015 &nbsp;
-									12th Grade</span><br>
-								I recieved my 12th Grade Diploma with pass percentage of 73.8 from <span
-									class="font-italic">Sainik School Kazhakootam</span> under
-								the affiliation of Central Board of Secondary Education</td>
-						</tr>
-					</tbody>
-				</table>
-				<table class="table w-50" style="position:relative; top:100px ;left: 100px;">
-					<tbody>
-						<tr>
-							<td><span class="font-weight-bold">2013 &nbsp;
-									10th Grade</span><br>
-								I recieved my 10th Grade Diploma with pass percentage of 83.6 from <span
-									class="font-italic">Sainik School Kazhakootam</span> under
-								the affiliation of Central Board of Secondary Education</td>
-						</tr>
-					</tbody>
-				</table>
+			<div class="col">
+				<div class="text-center">
+					<img src="images/Screenshot (1).png" class="mb-3 rounded jocker" data-toggle="modal"
+						data-target="#img1" alt="jocker">
+				</div>
+				<div class="text-center">
+					<img src="images/joker.jpg" class="mb-3 rounded jocker" alt="jocker" data-toggle="modal"
+					data-target="#img2" alt="jocker">
+				</div>
+				<div class="text-center">
+					<img src="images/Screenshot (2).png" class="mb-3  rounded jocker" alt="jocker">
+				</div>
+				<div class="text-center">
+					<img src="images/gift-shop.jpg" class="mb-3  rounded jocker" alt="jocker">
+				</div>
+				<div class="text-center">
+					<img src="images/stock-chart1.jpg" class="mb-3  rounded jocker" alt="jocker">
+				</div>
+				<div class="text-center">
+					<img src="images/customer-preference1.jpg" class="mb-3  rounded jocker" alt="jocker">
+				</div>
+				<div class="text-center">
+					<img src="images/customer-preference2.jpg" class="mb-3 rounded jocker" alt="jocker">
+				</div>
 			</div>
 		</div>
-		<!-- project -->
-		<div class=" body3" id="div3">
-			<div class="w-50">
-				<h1 style="position:relative; top:70px ;left:100px;">Projects</h1>
-			</div>
-			<div>
-				<table class="table w-50" style="position:relative; top:100px ;left: 100px;">
-					<tbody>
-						<tr>
-							<td>
-								<a href="https://github.com/Gurudutt-S/customer-preference-management"
-									target="_blank"><span class="font-weight-bold text-dark">Customer Preference (CDE
-										Rank)</span>&nbsp;
-									<i class="fa fa-lg fa-github-square text-dark" aria-hidden="true"></i>
-								</a>
-								<br>
-								An Application for a store where the customers can register by contacting store
-								representative and customers can update their contact preference either by using
-								a self-service kiosk or through representative.
-							</td>
-						</tr>
-					</tbody>
-				</table>
-				<table class="table w-50" style="position:relative; top:100px ;left: 100px;">
-					<tbody>
-						<tr>
-							<td>
-								<a href="https://github.com/Gurudutt-S/Stock-market-charting" target="_blank"><span
-										class="font-weight-bold text-dark">Stock Market Charting
-										(Training)</span>&nbsp;
-									<i class="fa fa-lg fa-github-square text-dark" aria-hidden="true"></i>
-								</a>
-								<br>
-								A Web Application that provide users with a comparison representing current
-								stock rates of different companies and sector wise comparison based on current
-								stock exchange trends.
-							</td>
-						</tr>
-					</tbody>
-				</table>
-				<table class="table w-50" style="position:relative; top:100px ;left: 100px;">
-					<tbody>
-						<tr>
-							<td><span class="font-weight-bold">Water Toxicity Monitoring (College final year
-									project)</span>
-								<br>
-								An IoT system used for measuring the toxicity of water by using pH as a factor and
-								sending the data wirelessly using LoRa(Long Range).
-							</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-		</div>
+
 		<!-- skill -->
-		<div class=" body4" id="div4">
+		<div id="div4">
 			<div class="w-50">
 				<h1 style="position:relative; top:100px ;left:600px;">Technical Skills</h1>
 			</div>
@@ -267,9 +283,33 @@
 				</div>
 			</div>
 		</div>
+
+		<!-- img1 -->
+		<div class="modal modal-xl fade" id="img1" tabindex="-1" role="dialog"
+			aria-labelledby="img1" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="">
+						<img src="images/Screenshot (1).png" alt="s1" width="700px">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- img2 -->
+		<div class="modal modal-xl fade" id="img2" tabindex="-1" role="dialog"
+			aria-labelledby="img2" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="">
+						<img src="images/joker.jpg" alt="s1" width="700px">
+					</div>
+				</div>
+			</div>
+		</div>
 	</main>
 
-	<footer class="footer p-2" style="background-color: rgba(0, 0, 0, 0.5);">
+	<footer class="footer p-2 mt-5" style="background-color: rgba(0, 0, 0, 0.5);">
 		<div class="text-center text-muted">
 			&copy; 2020, Gurudutt S
 		</div>

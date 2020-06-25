@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Comfortaa', cursive;
+    scroll-behavior: smooth;
 }
 
 .row {
@@ -17,30 +18,53 @@
 }
 
 body {
-    background-image: url(images/13.jpg);
+    background-image: url(images/2.jpg);
     background-size: cover;
+    background-attachment: fixed;
+    color: white;
 }
+
 
 .body1 {
-    background-image: url(images/13.jpg);
-    background-size: cover;
-    height: 91vh;
+    height: 80vh;
 }
 
-.body2 {
-    background-image: url(images/15.jpg);
-    background-size: cover;
-    height: 100vh;
+.timeline {
+    width: 600px;
+    position: relative;
+    top: 70px;
+    left: 100px;
+    border-left: 2px solid white;
+    padding: 0 20px 0 30px;
 }
 
-.body3 {
-    background-image: url(images/4.jpg);
-    background-size: cover;
-    height: 100vh;
+.timeline.individual {
+    position: relative;
+    margin-bottom: 10px;
 }
 
-.body4 {
-    background-image: url(images/20.jpg);
-    background-size: cover;
-    height: 100vh;
+.individual:before {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    border: 3px solid white;
+    position: relative;
+    top: 15px;
+    left: -36px;
+}
+
+.jocker{
+    position: relative;
+    top:200px;
+    width: 300px;
+    filter: grayscale(50%);
+}
+
+.jocker:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+    filter: grayscale(0%);
 }
