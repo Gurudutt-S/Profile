@@ -28,6 +28,8 @@
 				<li class="nav-item"><a href="#div1" class="nav-link text-muted">ABOUT ME</a></li>
 				<li class="nav-item"><a href="#div2" class="nav-link text-muted"></i>EDUCATION</a></li>
 				<li class="nav-item"><a href="#div3" class="nav-link text-muted">PROJECT</a></li>
+				<li type="button" data-toggle="modal" data-target="#skill">
+					<span class="nav-link text-muted">SKILLS</span></li>
 				<li type="button" data-toggle="modal" data-target="#cde">
 					<span class="nav-link text-muted">CDE RANK</span></li>
 			</ul>
@@ -36,52 +38,58 @@
 
 	<main>
 		<!-- gurudutt -->
-		<div class="body1" id="div1">
-			<div class="d-block pt-5 text-center">
-				<img src="images/Gurudutt.jpg" alt="Gurudutt" width="120px" height="140px"
-					style="border-radius: 100%; box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.5);">
-			</div>
-			<div class="text-center" style="position:relative;top:10px;">
-				<h1>Hi, I'm <span class="display-4 font-weight-bold">Gurudutt S</span></h1>
-			</div>
-			<div class="text-center" style="position:relative;top:10px;">
-				<h3 class="">Full Stack Developer</h1>
-			</div>
-			<div class="text-center" style="position:relative;top:20px;">
-				<p class="d-block mx-auto w-50">I'm a Full Stack Developer who is a fresher in IT industry, having
-					good knowledge in Java 8, Spring boot, Spring cloud, Microservices, REST, Test Driven Development,
-					Angular 8, Junit and Mockito.
-				</p>
-			</div>
-			<div class="text-center" style="position:relative;top:30px;">
-				<P><i class="fa fa-phone"></i>&nbsp;+91 8547102854<br>
-					<i class="fa fa-map-marker"></i>&nbsp;Trivandrum, Kerala, India</P>
+		<div class="container">
+			<div class="jumbotron"
+				style="background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(90,92,106,1) 0%, rgba(32,45,58,1) 81.3% );mix-blend-mode: lighten;"
+				id="div1">
+				<div class="d-block text-center">
+					<img src="images/Gurudutt.jpg" alt="Gurudutt" width="120px" height="140px"
+						style="border-radius: 100%; box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.5);">
+				</div>
+				<div class="text-center" style="position:relative;top:10px;">
+					<h1>Hi, I'm <span class="display-4 font-weight-bold">Gurudutt S</span></h1>
+				</div>
+				<div class="text-center" style="position:relative;top:10px;">
+					<h3 class="">Full Stack Developer</h1>
+				</div>
+				<div class="text-center" style="position:relative;top:20px;">
+					<p class="d-block mx-auto w-75">I'm a Full Stack Developer who is a fresher in IT industry, having
+						good knowledge in Java 8, Spring boot, Spring cloud, Microservices, REST, Test Driven
+						Development,
+						Angular 8, Junit and Mockito.
+					</p>
+				</div>
+				<div class="text-center" style="position:relative;top:30px;">
+					<P><i class="fa fa-phone"></i>&nbsp;+91 8547102854<br>
+						<i class="fa fa-map-marker"></i>&nbsp;Trivandrum, Kerala, India</P>
+				</div>
 			</div>
 		</div>
 		<!-- education -->
 		<div id="div2" class="row">
 			<div class="col">
 				<div class="w-75">
-					<h1 class="display-4" style="position:relative; top:70px ;left:100px;">My Journey</h1>
+					<h1 class="display-4 text-danger" style="position:relative; top:70px ;left:100px;">My Journey</h1>
 				</div>
 				<div class="timeline">
 					<div class="individual">
 						<p class="font-weight-bold" style="color: #5cdb95;">2013</p>
-						<p>10th Grade<br>
+						<p><span class="text-primary">10th Grade</span><br>
 							I recieved my 10th Grade Diploma with pass percentage of 83.6 from <span
 								class="font-italic">Sainik School Kazhakootam</span> under
 							the affiliation of Central Board of Secondary Education</p>
 					</div>
 					<div class="individual">
 						<p class="font-weight-bold" style="color: #5cdb95;">2015</p>
-						<p>12th Grade</span> <span class="font-weight-bold">(Information Technology)</span><br>
+						<p><span class="text-primary">12th Grade</span><br>
 							I recieved my 12th Grade Diploma with pass percentage of 73.8 from <span
 								class="font-italic">Sainik School Kazhakootam</span> under
 							the affiliation of Central Board of Secondary Education</p>
 					</div>
 					<div class="individual">
 						<p class="font-weight-bold" style="color: #5cdb95;">2019</p>
-						<p>B-Tech</span> <span class="font-weight-bold">(Information Technology)</span><br>
+						<p><span class="text-primary">B-Tech</span> <span
+								class="font-weight-bold text-primary">(Information Technology)</span><br>
 							I recieved my Bachelor's Degree in <span class="font-italic">Information
 								Technology</span> with cgpa of 7.01 from <span class="font-italic">Government
 								Engineering College Idukki</span> under
@@ -93,36 +101,36 @@
 						<p class="font-weight-bold" style="color: #5cdb95;">2019</p>
 						<p>Mobile Application for State Transport</p>
 						<p>GPS System for College Bus</p>
-						<p>Water Toxicity Monitoring (College final year
-							project)</span>
+						<p><span class="text-primary">
+								Water Toxicity Monitoring </span>(College final year project)
 							<br>
 							An IoT system used for measuring the toxicity of water by using pH as a factor and
 							sending the data wirelessly using LoRa(Long Range).</p>
 					</div>
 
 					<div class="individual">
-						<p class="font-weight-bold" style="color: #5cdb95;">2019 September</p>
+						<p class="font-weight-bold" style="color: #5cdb95;">Sept 2019</p>
 						<p>UI Developer Course <br>
 							Technologies : HTML 5, CSS 3, Bootstrap 4, Wordpress (Basics)</p>
 					</div>
 
 					<div class="individual">
-						<p class="font-weight-bold" style="color: #5cdb95;">28 December 2020</p>
+						<p class="font-weight-bold" style="color: #5cdb95;">28 Dec 2020</p>
 						<p>Jioned <span class="text-primary">Cognizant</span> <br>
 							Location : Chennai</p>
 					</div>
 
 					<div class="individual">
-						<p class="font-weight-bold" style="color: #5cdb95;">30 December 2020</p>
+						<p class="font-weight-bold" style="color: #5cdb95;">30 Dec 2020</p>
 						<p>Started Training <br>
 							Trained By : IIHT <br>
 							Vendor Location : Arich Infotech, Chennai</p>
 					</div>
 
 					<div class="individual">
-						<p class="font-weight-bold" style="color: #5cdb95;">2020</p>
+						<p class="font-weight-bold" style="color: #5cdb95;">Jan 2020 - March 2020</p>
 						<p><a href="https://github.com/Gurudutt-S/Stock-market-charting" target="_blank"><span
-									class="font-weight-bold text-dark">Stock Market Charting
+									class="font-weight-bold text-primary">Stock Market Charting
 									(Training)</span>&nbsp;
 								<i class="fa fa-lg fa-github-square text-dark" aria-hidden="true"></i>
 							</a>
@@ -130,11 +138,65 @@
 							A Web Application that provide users with a comparison representing current
 							stock rates of different companies and sector wise comparison based on current
 							stock exchange trends.</p>
+
+						<table class="table text-white">
+
+							<body>
+								<tr>
+									<td>Web Technologies </td>
+									<td> HTML 5, CSS 3, Bootstrap 4 </td>
+								</tr>
+								<tr>
+									<td>Programming Language </td>
+									<td>Java 8</td>
+								</tr>
+								<tr>
+									<td>Framework </td>
+									<td> Spring Boot, Spring Cloud (Eureka Server, Zuul API Gateway,
+										Feing Client, Ribbon), Angular 8, Hibernate </td>
+								</tr>
+								<tr>
+									<td>Database</td>
+									<td>MySQL</td>
+								</tr>
+								<tr>
+									<td>Technologies</td>
+									<td>Microservices, JPA, REST, JUnit, Mockito</td>
+								</tr>
+								<tr>
+									<td>Tools</td>
+									<td>Git, Maven, Eclipse IDE, VSCode</td>
+								</tr>
+							</body>
+						</table>
 					</div>
 					<div class="individual">
-						<p class="font-weight-bold">2020</p>
+						<p class="font-weight-bold" style="color: #5cdb95;">Apr 2020 - May 2020</p>
+						<p>CDE Project Usecase : Customer Preference</p>
+						<p>Learning timeline : <br>
+						<table class="table text-light">
+							<tbody>
+								<tr>
+									<td class="w-25">Day 1 - 4</td>
+									<td>Project Workflow, Requirement Analysis, Knowledge Transfer, Started development.
+									</td>
+								</tr>
+								<tr>
+									<td>Day 4 - 8</td>
+									<td>Lombok, Feing, Ribbon, Eureka Server, Zuul.</td>
+								</tr>
+								<tr>
+									<td>Day 8 - 12</td>
+									<td>Hystrix, Config server, Actuator, Security.</td>
+								</tr>
+								<tr>
+									<td>Day 12 - 16</td>
+									<td>Swagger, Junit and Mockito, Sonar, Final jar.</td>
+								</tr>
+							</tbody>
+						</table>
 						<p><a href="https://github.com/Gurudutt-S/customer-preference-management" target="_blank"><span
-									class="font-weight-bold text-dark">Customer Preference (CDE
+									class="font-weight-bold text-primary">Customer Preference (CDE
 									Rank)</span>&nbsp;
 								<i class="fa fa-lg fa-github-square text-dark" aria-hidden="true"></i>
 							</a>
@@ -142,6 +204,19 @@
 							An Application for a store where the customers can register by contacting store
 							representative and customers can update their contact preference either by using
 							a self-service kiosk or through representative.</p>
+						<p class="text-warning">CDE project Score : 90</p>
+					</div>
+
+					<div class="individual">
+						<p class="font-weight-bold" style="color: #5cdb95;">29 May 2020</p>
+						<p>Hackerrank Assesment</p>
+						<p class="text-warning">Hackerrank Score : 50.10</p>
+					</div>
+
+					<div class="individual">
+						<p class="font-weight-bold" style="color: #5cdb95;">10 June 2020</p>
+						<p>CDE Rank</p>
+						<p class="text-warning">CDE Score : 66.06</p>
 					</div>
 				</div>
 			</div>
@@ -152,72 +227,87 @@
 				</div>
 				<div class="text-center">
 					<img src="images/joker.jpg" class="mb-3 rounded jocker" alt="jocker" data-toggle="modal"
-					data-target="#img2" alt="jocker">
+						data-target="#img2" alt="jocker">
 				</div>
 				<div class="text-center">
-					<img src="images/Screenshot (2).png" class="mb-3  rounded jocker" alt="jocker">
+					<img src="images/Screenshot (2).png" class="mb-3  rounded jocker" data-toggle="modal"
+						data-target="#img3" alt="jocker">
 				</div>
 				<div class="text-center">
-					<img src="images/gift-shop.jpg" class="mb-3  rounded jocker" alt="jocker">
+					<img src="images/gift-shop.jpg" class="mb-3  rounded jocker" data-toggle="modal" data-target="#img4"
+						alt="jocker">
 				</div>
 				<div class="text-center">
-					<img src="images/stock-chart1.jpg" class="mb-3  rounded jocker" alt="jocker">
+					<img src="images/stock-chart1.jpg" class="mb-3  rounded jocker" data-toggle="modal"
+						data-target="#img5" alt="jocker">
 				</div>
 				<div class="text-center">
-					<img src="images/customer-preference1.jpg" class="mb-3  rounded jocker" alt="jocker">
+					<img src="images/customer-preference1.jpg" class="mb-3  rounded jocker" data-toggle="modal"
+						data-target="#img6" alt="jocker">
 				</div>
 				<div class="text-center">
-					<img src="images/customer-preference2.jpg" class="mb-3 rounded jocker" alt="jocker">
+					<img src="images/customer-preference2.jpg" class="mb-3 rounded jocker" data-toggle="modal"
+						data-target="#img7" alt="jocker">
 				</div>
 			</div>
 		</div>
 
 		<!-- skill -->
-		<div id="div4">
-			<div class="w-50">
-				<h1 style="position:relative; top:100px ;left:600px;">Technical Skills</h1>
-			</div>
-			<div>
-				<table class="table w-50" style="position:relative; top:110px ;left: 600px;">
-					<tbody>
-						<tr>
-							<td>Programming Language</td>
-							<td>Java 8</td>
-						</tr>
-						<tr>
-							<td>Frameworks</td>
-							<td>Spring Boot, Spring Cloud, Hibernate, <br> Angular 8 with Angular Material, bootstrap
-							</td>
-						</tr>
-						<tr>
-							<td>Web Technologies</td>
-							<td>HTML 5, CSS 3</td>
-						</tr>
-						<tr>
-							<td>Database</td>
-							<td>MySQL</td>
-						</tr>
-						<tr>
-							<td>Technologies</td>
-							<td>Microservices, JPA, REST, JUnit, Mockito</td>
-						</tr>
-						<tr>
-							<td>Tools</td>
-							<td>Git, Maven, Eclipse IDE, VSCode</td>
-						</tr>
-						<tr>
-							<td>Operating Systems</td>
-							<td>Windows, Linux</td>
-						</tr>
-					</tbody>
-				</table>
+
+		<div class="modal fade " style="background-color: rgba(0, 0, 0, 0.5);" id="skill" tabindex="-1" role="dialog"
+			aria-labelledby="skill" aria-hidden="true">
+			<div class="modal-dialog " role="document">
+				<div class="modal-content text-light" style="background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(69,86,102,1) 0%, rgba(34,34,34,1) 90% );">
+					<div class="modal-header">
+						<h5 class="modal-title " id="skill">Technical Skills</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body" >
+						<table class="table text-light">
+							<tbody>
+								<tr>
+									<td>Programming Language</td>
+									<td>Java 8</td>
+								</tr>
+								<tr>
+									<td>Frameworks</td>
+									<td>Spring Boot, Spring Cloud, Hibernate, <br> Angular 8 with Angular Material,
+										bootstrap
+									</td>
+								</tr>
+								<tr>
+									<td>Web Technologies</td>
+									<td>HTML 5, CSS 3</td>
+								</tr>
+								<tr>
+									<td>Database</td>
+									<td>MySQL</td>
+								</tr>
+								<tr>
+									<td>Technologies</td>
+									<td>Microservices, JPA, REST, JUnit, Mockito</td>
+								</tr>
+								<tr>
+									<td>Tools</td>
+									<td>Git, Maven, Eclipse IDE, VSCode</td>
+								</tr>
+								<tr>
+									<td>Operating Systems</td>
+									<td>Windows, Linux</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
 			</div>
 		</div>
 		<!-- CDE -->
 		<div class="modal fade" style="background-color: rgba(0, 0, 0, 0.5);" id="cde" tabindex="-1" role="dialog"
 			aria-labelledby="cdeModal" aria-hidden="true">
 			<div class="modal-dialog " role="document">
-				<div class="modal-content bg-light shadow">
+				<div class="modal-content text-light" style="background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(69,86,102,1) 0%, rgba(34,34,34,1) 90% );">
 					<div class="modal-header">
 						<h5 class="modal-title" id="cdeModal">CDE Rank</h5>
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -225,7 +315,7 @@
 						</button>
 					</div>
 					<div class="modal-body">
-						<table class="table">
+						<table class="table text-light">
 							<tbody>
 								<tr>
 									<td>CDE Project</td>
@@ -278,15 +368,15 @@
 							Project</small>
 					</div>
 					<div class="modal-footer">
-						<button type="button" class="btn btn-sm border-secondary" data-dismiss="modal">Ok</button>
+						<button type="button" class="btn btn-sm border-secondary text-light" data-dismiss="modal">Ok</button>
 					</div>
 				</div>
 			</div>
 		</div>
 
 		<!-- img1 -->
-		<div class="modal modal-xl fade" id="img1" tabindex="-1" role="dialog"
-			aria-labelledby="img1" aria-hidden="true">
+		<div class="modal modal-xl fade" id="img1" tabindex="-1" role="dialog" aria-labelledby="img1"
+			aria-hidden="true">
 			<div class="modal-dialog modal-dialog-centered" role="document">
 				<div class="modal-content">
 					<div class="">
@@ -297,12 +387,72 @@
 		</div>
 
 		<!-- img2 -->
-		<div class="modal modal-xl fade" id="img2" tabindex="-1" role="dialog"
-			aria-labelledby="img2" aria-hidden="true">
+		<div class="modal modal-xl fade" id="img2" tabindex="-1" role="dialog" aria-labelledby="img2"
+			aria-hidden="true">
 			<div class="modal-dialog modal-dialog-centered" role="document">
 				<div class="modal-content">
 					<div class="">
 						<img src="images/joker.jpg" alt="s1" width="700px">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- img3 -->
+		<div class="modal modal-xl fade" id="img3" tabindex="-1" role="dialog" aria-labelledby="img3"
+			aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="">
+						<img src="images/Screenshot (2).png" alt="s1" width="700px">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- img4 -->
+		<div class="modal modal-xl fade" id="img4" tabindex="-1" role="dialog" aria-labelledby="img4"
+			aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="">
+						<img src="images/gift-shop.jpg" alt="s1" width="700px">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- img5 -->
+		<div class="modal modal-xl fade" id="img5" tabindex="-1" role="dialog" aria-labelledby="img5"
+			aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="">
+						<img src="images/stock-chart1.jpg" alt="s1" width="700px">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- img6 -->
+		<div class="modal modal-xl fade" id="img6" tabindex="-1" role="dialog" aria-labelledby="img6"
+			aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="">
+						<img src="images/customer-preference1.jpg" alt="s1" width="700px">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- img7 -->
+		<div class="modal modal-xl fade" id="img7" tabindex="-1" role="dialog" aria-labelledby="img7"
+			aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="">
+						<img src="images/customer-preference2.jpg" alt="s1" width="700px">
 					</div>
 				</div>
 			</div>
