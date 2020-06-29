@@ -24,6 +24,19 @@ body {
     color: white;
 }
 
+li{
+    width: 150px;
+    text-align: center;
+    margin: 0px 5px;
+    transition: 0.3s;
+    border-bottom: 2px solid white;
+}
+
+li:hover{
+    transition: 0.3s;
+    border-bottom: 2px solid red;
+}
+
 .timeline {
     width: 600px;
     position: relative;
